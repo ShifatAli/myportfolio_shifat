@@ -39,13 +39,13 @@ export default function Skills() {
       >
         {/* === HEADER === */}
         <motion.div
-          className="text-center border-2 border-[#DA9928] dark:border-white inline-block px-10 py-4 rounded-xl mx-auto"
+          className="text-center"
           initial={{ scale: 0.95 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-4xl font-extrabold text-[#DA9928] dark:text-white uppercase tracking-wide">
-             My Skills
+          <h2 className="text-4xl font-bold text-[#DA9928]">
+            My Skills
           </h2>
         </motion.div>
 
@@ -56,7 +56,7 @@ export default function Skills() {
             {hardSkills.map((skill, index) => (
               <motion.div
                 key={skill.name}
-                className="flex flex-col items-center gap-2 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 p-4 rounded-lg shadow hover:shadow-md transition-all duration-300"
+                className="flex flex-col items-center gap-2 bg-white dark:bg-gray-900 p-4 rounded-lg shadow hover:shadow-md transition-all duration-300"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -76,7 +76,7 @@ export default function Skills() {
             {softSkills.map((skill, index) => (
               <motion.div
                 key={skill.name}
-                className="flex flex-col items-center gap-2 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 p-4 rounded-lg shadow hover:shadow-md transition-all duration-300"
+                className="flex flex-col items-center gap-2 bg-white dark:bg-gray-900 p-4 rounded-lg shadow hover:shadow-md transition-all duration-300"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}

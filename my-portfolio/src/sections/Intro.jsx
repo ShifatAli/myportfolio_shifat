@@ -42,7 +42,7 @@ export default function Intro() {
           {/* BUTTONS */}
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
             <motion.a
-              href="/PremaxLio_CV.pdf"
+              href="/Shifat_ali_CV.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

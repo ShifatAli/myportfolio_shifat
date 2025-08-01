@@ -76,7 +76,7 @@ export default function Projects() {
           <h2 className="text-3xl font-bold text-[#DA9928] mb-2">
             My Projects 💻
           </h2>
-          <p className="text-gray-500 dark:text-gray-400 text-sm">
+          <p className="text-white text-sm">
             A showcase of my development work
           </p>
         </motion.div>
@@ -91,7 +91,7 @@ export default function Projects() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.2 }}
-              className="rounded-xl bg-white dark:bg-[#111] border border-gray-300 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+              className="rounded-xl bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
             >
               <img
                 src={project.image}
@@ -100,9 +100,7 @@ export default function Projects() {
               />
               <div className="p-5 space-y-2">
                 <h3 className="text-lg font-semibold">{project.title}</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-300">
-                  {project.desc}
-                </p>
+                <p className="text-sm text-white">{project.desc}</p>
                 <a
                   href={project.link}
                   target="_blank"

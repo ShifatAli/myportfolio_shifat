@@ -4,13 +4,13 @@ export default function SocialBar() {
   const socialLinks = [
     {
       icon: <FaLinkedin size={20} />,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/shifatali/",
       label: "LinkedIn",
       color: "hover:text-[#0077B5]",
     },
     {
       icon: <FaGithub size={20} />,
-      href: "https://github.com",
+      href: "https://github.com/ShifatAli",
       label: "GitHub",
       color: "hover:text-gray-800 dark:hover:text-white",
     },
